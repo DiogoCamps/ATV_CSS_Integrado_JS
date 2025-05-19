@@ -7,7 +7,11 @@ let produtos = [
   ];
 
   function inicializarProdutos(){
-    let containerPrincipal = document.getElementById('produtos')
-  }
+    let containerPrincipal = document.getElementById('produtos');
+    if(containerPrincipal instanceof HTMLDivElement){
+    produtos.forEach((produto) =>{
 
+    });
+  }
+}
   document.addEventListener('DOMContentLoaded', configurar());
