@@ -7,7 +7,7 @@ let produtos = [
   ];
 
   function inicializarProdutos(){
-    let inicializarProdutos = document.getElementById('produtos')
+    let containerPrincipal = document.getElementById('produtos')
   }
 
   document.addEventListener('DOMContentLoaded', configurar());
