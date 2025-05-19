@@ -10,8 +10,10 @@ let produtos = [
     let containerPrincipal = document.getElementById('produtos');
     if(containerPrincipal instanceof HTMLDivElement){
     produtos.forEach((produto) =>{
-
+      let containerProduto = criarContainerProduto(produto);
     });
   }
 }
-  document.addEventListener('DOMContentLoaded', configurar());
+
+
+document.addEventListener('DOMContentLoaded', configurar());
