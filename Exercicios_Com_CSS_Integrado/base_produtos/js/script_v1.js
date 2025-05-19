@@ -6,4 +6,8 @@ let produtos = [
     { nome: 'Teclado', diretorio: 'teclado', textoDescritivo: 'Teclado Mecânico Gamer Phantom, ABNT2 - Preto', imagens: ['01.jpg', '02.jpg', '03.jpg'] },
   ];
 
+  function inicializarProdutos(){
+    let inicializarProdutos = document.getElementById('produtos')
+  }
+
   document.addEventListener('DOMContentLoaded', configurar());
